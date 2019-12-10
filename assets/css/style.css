@@ -1,0 +1,197 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+#head-info {
+    width: 960px;
+    margin: auto;
+}
+
+.navigation {
+    text-decoration: none;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.navigation:hover{
+    color: #4aaaa5;
+}
+
+#portfolio, #contact {
+    border-left: .5px solid #dddddd;
+    padding-left: 10px;
+}
+
+h1 {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+body {
+    background: url("../images/greek-vase.png") repeat center center fixed;
+    margin: 0px;
+    padding-bottom: 55px;
+}
+
+.video {
+    text-decoration: none;
+    font-weight: bold;
+    color: #777777;
+}
+
+.video:hover{
+    color: #4aaaa5;
+}
+
+.container{
+    padding: 20px;
+    width: 960px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    margin: auto;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 20px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#about-image {
+    float: left;
+    overflow: auto;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.port-image {
+    width: 275px;
+    height: 275px;
+}
+
+figure {
+    float: left;
+    overflow: auto;
+    position: relative;
+    margin-left: 0;
+}
+
+figcaption {
+    padding: 15px;
+    display: inside;
+    float: middle;
+    position: absolute;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 245px;
+    text-align: center;
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#name, #email, #message {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#name-box, #email-box {
+    height: 20px;
+    width: 918px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#message-box {
+    height: 170px;
+    width: 918px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    height: 50px;
+    width: 100%;
+}
+
+#copyright {
+    margin-top: 27px;
+}
+
+@media screen and (max-width:980px) {
+    .contact, .container, .clearfix, #head-info, #name-box, #email-box, #message-box {
+        width: 980px;
+    }
+    #head-info, #name-box, #email-box, #message-box {
+        width: 940px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact, .container, .clearfix, #head-info, #name-box, #email-box, #message-box {
+        width: 768px;
+    }
+
+    #head-info, #name-box, #email-box, #message-box {
+        width: 728px
+    }
+}
+@media screen and (max-width:640px) {
+    .contact, .container, .clearfix, #head-info, #name-box, #email-box, #message-box {
+        width: 640px;
+    }
+
+    #head-info, #name-box, #email-box, #message-box {
+        width: 600px
+    }
+}
